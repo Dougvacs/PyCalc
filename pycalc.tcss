@@ -1,0 +1,55 @@
+DisplayArea {
+    layout: horizontal;
+    height: 4;
+    margin: 1;
+    background: black 25%;
+    text-align: right;
+}
+
+ButtonArea {
+    layout: grid;
+    grid-size: 4 4;
+    height: 1fr;
+    margin: 1;
+}
+
+Button {
+    border: outer black 25%;
+}
+
+Button:enabled {
+    text-style: none;
+}
+
+.calc_button {
+    width: 100%;
+    height: 100%;
+    column-span: 1;
+    row-span: 1;
+}
+
+.red {
+    background: red;
+}
+.red:hover {
+    background: darkred;
+}
+
+.orange {
+    background: orange;
+}
+.orange:hover {
+    background: darkorange;
+}
+
+.blue {
+    background: darkcyan;
+}
+.blue:hover {
+    background: black;
+}
+
+#OperationsBar {
+    width: 100%;
+    layout: horizontal;
+}
